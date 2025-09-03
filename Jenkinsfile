@@ -7,7 +7,7 @@ pipeline {
     }
     environment {
         MAVEN_ARGS = '-B -ntp'
-        TOMCAT_HOME = '/opt/tomcat'
+        TOMCAT_HOME = 'home/ec2-user/apache-tomcat-7.0.94'
         TOMCAT_WEBAPPS = "${TOMCAT_HOME}/webapps"
     }
     stages {
